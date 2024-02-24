@@ -2,8 +2,12 @@ from setuptools import setup
 
 setup(
     name='tea-xyz1',
-    version='1.0.0',
+    version='1.0.1',
     description='A simple package for https://app.tea.xyz/',
+    url='https://github.com/madest92/tea-xyz1',
+    project_urls={
+        'Homepage': 'https://github.com/madest92/tea-xyz1',
+    },
     py_modules=['hello_tea'],
     entry_points={
         'console_scripts': [
