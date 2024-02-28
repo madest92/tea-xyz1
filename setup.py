@@ -4,7 +4,7 @@ setup(
     author='Alex',
     author_email='madest92@mail.com',
     name='tea-xyz1',
-    version='1.0.2',
+    version='1.0.3',
     description='A simple package for https://app.tea.xyz/',
     url='https://github.com/madest92/tea-xyz1',
     project_urls={
@@ -26,4 +26,7 @@ setup(
         'Programming Language :: Python :: 3.9',
     ],
     python_requires='>=3.6',
+    install_requires=[
+        'requests>=2.20.0',
+    ],
 )
